@@ -1,1 +1,13 @@
-// TODO: eslint를 구성해 보세요. 
+/*eslint no-undef: "error"*/
+module.exports = {
+  env: {
+    browser: true,
+    es2021: true,
+  },
+  extends: "eslint:recommended",
+  parserOptions: {
+    ecmaVersion: "latest",
+    sourceType: "module",
+  },
+  rules: {},
+};
